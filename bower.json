@@ -1,0 +1,26 @@
+{
+  "name": "webApp",
+  "authors": [
+    "badboyweb <nashwq@163.com>"
+  ],
+  "description": "angularJS webApp",
+  "main": "",
+  "keywords": [
+    "angularJs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "webapp/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-ui-router": "^1.0.15"
+  }
+}
