@@ -1,6 +1,6 @@
 [{
     "id": "p1",
-    "imageUrl": "/image/company-sg.jpg",
+    "imageUrl": "image/company-sg.jpg",
     "job": "IOT事业部-Java开发工程师-北京-02856",
     "companyId": "c3",
     "companyName": "搜狗",
@@ -21,7 +21,7 @@
     "date": "2017-06-01 11:11"
   }, {
     "id": "p2",
-    "imageUrl": "/image/company-3.png",
+    "imageUrl": "image/company-3.png",
     "job": "产品经理",
     "companyId": "c3",
     "companyName": "千度",
@@ -40,7 +40,7 @@
     "date": "2018-01-01 11:05"
   }, {
     "id": "p3",
-    "imageUrl": "/image/company-1.png",
+    "imageUrl": "image/company-1.png",
     "job": "WEB前端",
     "companyId": "c1",
     "companyName": "慕课网",
@@ -59,7 +59,7 @@
     "date": "2018-02-01 01:05"
   }, {
     "id": "p4",
-    "imageUrl": "/image/company-2.png",
+    "imageUrl": "image/company-2.png",
     "job": "阿语SEM工程师",
     "companyId": "c2",
     "companyName": "六一集团有限公司",
