@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "angular": "1.5.8",
-    "angular-ui-router": "^1.0.15"
+    "angular-ui-router": "^1.0.15",
+    "angular-cookies": "1.5.8"
   }
 }

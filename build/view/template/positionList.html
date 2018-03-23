@@ -1,5 +1,5 @@
 <ul class="position-list">
-    <li class="list-item b-b" ui-sref="position({id:item.id})" ng-repeat="item in data"><!--暴露的接口是data 降低指令和控制器之间的耦合度，利于指令互用-->
+    <li class="list-item b-b" ui-sref="position({id:item.id})" ng-repeat="item in data|filterByObj:filterObj"><!--暴露的接口是data 降低指令和控制器之间的耦合度，利于指令互用-->
         <img ng-src="{{item.imageUrl}}" alt="" class="f-l item-logo ve-m">
         <h2 class="item-title ell" ng-bind="item.companyName"></h2>
         <p class="item-info">

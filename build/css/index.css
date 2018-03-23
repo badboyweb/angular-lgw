@@ -222,6 +222,7 @@ ul {
 }
 .des-content {
   word-break: break-all;
+  white-space: pre-line;
   color: #555;
   padding: 15px;
   line-height: 0.58666667rem;
@@ -396,6 +397,27 @@ ul {
   background: url(../image/icon.png) no-repeat -222.5px -3.5px;
   background-size: 250px 250px;
 }
+.tab {
+  list-style-type: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  top: 40px;
+  font-size: 0;
+}
+.tab li {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+  font-size: 0.37333333rem;
+  height: 40px;
+  line-height: 40px;
+}
+.tab li.active {
+  border-bottom: 2px solid #00b38a;
+}
 .position-class {
   padding: 15px;
 }
@@ -423,7 +445,7 @@ ul {
 .position-class li button:focus {
   outline: 0;
 }
-.position-class li button.select {
+.position-class li button.active {
   background-color: #00b38a;
   color: #fff;
 }
@@ -460,6 +482,87 @@ ul {
   height: 50px;
   line-height: 50px;
   color: #333333;
+}
+.search-bar {
+  background-color: #00b38a;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  width: 100%;
+}
+.search-bar input {
+  background-color: #c2cfcc;
+  outline: 0;
+  border-radius: 15px;
+  height: 25px;
+  border: none;
+  padding-left: 10px;
+  margin: 0 5px;
+}
+.search-bar i {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+.search-bar button {
+  background-color: #00b38a;
+  border: none;
+  outline: 0;
+  color: #fff;
+}
+.search-bar button:last-child {
+  background: url("../image/search.png") no-repeat 0 2px;
+  background-size: 15px 15px;
+  padding-left: 18px;
+  line-height: 20px;
+  color: #c2cfcc;
+}
+.poslist {
+  padding-top: 80px;
+}
+.sheet {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+}
+.sheet .wrap {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8px 8px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.sheet .wrap ul {
+  width: 100%;
+  background-color: #f1f2f3;
+  list-style-type: none;
+  overflow: scroll;
+  max-height: 500px;
+  border-radius: 6px;
+}
+.sheet .wrap ul li {
+  color: #00b38a;
+  font-size: 0.42666667rem;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #c2cfcc;
+}
+.sheet .wrap button {
+  color: #00b38a;
+  width: 100%;
+  background-color: #f1f2f3;
+  line-height: 50px;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  margin-top: 8px;
+  border-radius: 6px;
 }
 html,
 body {

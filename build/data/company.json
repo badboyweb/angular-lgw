@@ -1,26 +1,42 @@
 {
     "id": "c1",
-    "imageUrl": "/image/company-1.png",
-    "name": "慕课网",
-    "industry": "移动互联网",
-    "state": "A轮",
-    "people": "50-150人",
+    "imageUrl": "image/company-sg.jpg",
+    "name": "搜狗",
+     "city":"北京",
+    "industry": "移动互联网,数据服务",
+    "state": "C轮",
+    "people": "2000人以上",
+    "vip":true,
     "positionClass": [{
       "id": "jishu",
       "name": "技术",
       "positionList": [{
         "id": "p1",
-        "name": "IOS前端工程师",
-        "createdDate": "2016-04-16 23:30",
-        "salary": "15k-25k"
+        "name": "IOT事业部-Java开发工程师-北京-02856",
+        "createdDate": "2017-06-01 11:11",
+        "salary": "20k-35k"
+      },{
+        "id": "p2",
+        "name": "糖猫-数据开发工程师-北京-02748 [ 北京 ]",
+        "createdDate": "2017-06-01 12:12",
+        "salary": "20k-30k"
       }]
     }, {
-      "id": "yunying",
-      "name": "运营",
+      "id": "chanpin",
+      "name": "产品",
       "positionList": [{
-        "id": "y1",
-        "name": "运营总监",
-        "createdDate": "2016-04-10 13:30",
+        "id": "c1",
+        "name": "搜狗游戏-产品经理-北京-03869 [ 北京 ]",
+        "createdDate": "2017-04-10 13:30",
+        "salary": "15-25k"
+      }]
+    },{
+      "id": "sheji",
+      "name": "设计",
+      "positionList": [{
+        "id": "s1",
+        "name": "搜索APP-用户研究工程师-北京-03876 [ 北京 ]",
+        "createdDate": "2017-04-10 13:30",
         "salary": "25k以上"
       }]
     }]

@@ -32,6 +32,7 @@ gulp.task('json',function () {
 //拷贝less文件
 gulp.task('less',function () {
     gulp.src(app.srcPath+'style/index.less')
+        .pipe($.plumber())
         .pipe($.less())
         .pipe(gulp.dest(app.devPath+'css'))
         .pipe($.cssmin())//发布到生产路径先压缩
@@ -41,6 +42,7 @@ gulp.task('less',function () {
 //拷贝js
 gulp.task('js',function () {
     gulp.src(app.srcPath+'script/**/*.js')
+        .pipe($.plumber())
         .pipe($.concat('index.js'))
         .pipe(gulp.dest(app.devPath+'js'))
         .pipe($.uglify())//发布到生产路径先压缩
@@ -50,6 +52,7 @@ gulp.task('js',function () {
 //拷贝image
 gulp.task('image',function () {
     gulp.src(app.srcPath+'image/**/*')
+        .pipe($.plumber())
         .pipe(gulp.dest(app.devPath+'image'))
         .pipe($.imagemin())//发布到生产路径先压缩
         .pipe(gulp.dest(app.prdPath+'image'))
@@ -74,7 +77,7 @@ gulp.task('serve',['build'],function () {
    gulp.watch('webapp/**/*.',['lib']);
    gulp.watch(app.srcPath+'**/*.html',['html']);
    gulp.watch(app.srcPath+'data/*.json',['json']);
-   gulp.watch(app.srcPath+'style/index.less',['less']);
+   gulp.watch(app.srcPath+'style/**/*.less',['less']);
    gulp.watch(app.srcPath+'script/**/*.js',['js']);
    gulp.watch(app.srcPath+'image/**/*',['image']);
 });

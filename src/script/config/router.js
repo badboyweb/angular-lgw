@@ -10,10 +10,14 @@ angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($s
             templateUrl:'view/position.html',
             controller:'positionCtrl'
     }).state('company',{
-        url:'/company/:id',
-        templateUrl:'view/companyInfo.html',
-        controller:'companyCtrl'
+            url:'/company/:id',
+            templateUrl:'view/companyInfo.html',
+            controller:'companyCtrl'
         }
-    );
+    ).state('search',{
+        url:'/search',
+        templateUrl:'view/search.html',
+        controller:'searchCtrl'
+    });
     $urlRouterProvider.otherwise('main');
 }]);

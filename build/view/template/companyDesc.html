@@ -1,9 +1,9 @@
 <div class="companyDesc b-b">
-    <img src="image/company-sg.jpg" alt="" class="f-l">
+    <img ng-src="{{com.imageUrl}}" alt="" class="f-l">
     <div>
-        <h2>搜狗</h2>
-        <p class="address"><i class="d-ib"></i><span>北京</span></p>
-        <p class="ell desc">移动互联网,数据服务/ C轮/ 2000人以上</p>
+        <h2 ng-bind="com.name"></h2>
+        <p class="address"><i class="d-ib"></i><span ng-bind="com.city">北京</span></p>
+        <p class="ell desc" ng-bind="com.industry+'/'+com.state+'/'+com.people"></p>
         <span class="d-ib vip"></span>
     </div>
 </div>
