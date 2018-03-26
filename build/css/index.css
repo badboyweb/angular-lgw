@@ -138,6 +138,11 @@ button {
   padding: 0;
   margin: 0;
 }
+input {
+  -webkit-appearance: none;
+  /*清除ios默认圆角*/
+  border-radius: 0;
+}
 button:active {
   border: none;
   outline: none;

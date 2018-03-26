@@ -2,61 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9655227-1349-4b9c-90f1-5b62abd2c9ab" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/property.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/variable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/image/company-sg.jpg.crdownload" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/view/template/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/property.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/variable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/image/company-sg.jpg.crdownload" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/view/template/login.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/index.css" afterPath="$PROJECT_DIR$/build/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/data/login.json" afterPath="$PROJECT_DIR$/build/data/login.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/data/myFavorite.json" afterPath="$PROJECT_DIR$/build/data/myFavorite.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/data/myPost.json" afterPath="$PROJECT_DIR$/build/data/myPost.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/data/regist.json" afterPath="$PROJECT_DIR$/build/data/regist.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/data/search.json" afterPath="$PROJECT_DIR$/build/data/search.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/index.js" afterPath="$PROJECT_DIR$/build/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/view/main.html" afterPath="$PROJECT_DIR$/build/view/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/view/position.html" afterPath="$PROJECT_DIR$/build/view/position.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/view/template/positionList.html" afterPath="$PROJECT_DIR$/build/view/template/positionList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/view/template/positioninfo.html" afterPath="$PROJECT_DIR$/build/view/template/positioninfo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/index.css" afterPath="$PROJECT_DIR$/dist/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/data/login.json" afterPath="$PROJECT_DIR$/dist/data/login.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/data/myFavorite.json" afterPath="$PROJECT_DIR$/dist/data/myFavorite.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/data/myPost.json" afterPath="$PROJECT_DIR$/dist/data/myPost.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/data/regist.json" afterPath="$PROJECT_DIR$/dist/data/regist.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/data/search.json" afterPath="$PROJECT_DIR$/dist/data/search.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/index.js" afterPath="$PROJECT_DIR$/dist/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/view/main.html" afterPath="$PROJECT_DIR$/dist/view/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/view/position.html" afterPath="$PROJECT_DIR$/dist/view/position.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/view/template/positionList.html" afterPath="$PROJECT_DIR$/dist/view/template/positionList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/view/template/positioninfo.html" afterPath="$PROJECT_DIR$/dist/view/template/positioninfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/login.json" afterPath="$PROJECT_DIR$/src/data/login.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/myFavorite.json" afterPath="$PROJECT_DIR$/src/data/myFavorite.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/myPost.json" afterPath="$PROJECT_DIR$/src/data/myPost.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/regist.json" afterPath="$PROJECT_DIR$/src/data/regist.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/search.json" afterPath="$PROJECT_DIR$/src/data/search.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/app.js" afterPath="$PROJECT_DIR$/src/script/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/config/router.js" afterPath="$PROJECT_DIR$/src/script/config/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/controller/positionCtrl.js" afterPath="$PROJECT_DIR$/src/script/controller/positionCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/directive/positionInfo.js" afterPath="$PROJECT_DIR$/src/script/directive/positionInfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/directive/positionList.js" afterPath="$PROJECT_DIR$/src/script/directive/positionList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/service/cache.js" afterPath="$PROJECT_DIR$/src/script/service/cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/index.less" afterPath="$PROJECT_DIR$/src/style/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/template/positionList.less" afterPath="$PROJECT_DIR$/src/style/template/positionList.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/main.html" afterPath="$PROJECT_DIR$/src/view/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/position.html" afterPath="$PROJECT_DIR$/src/view/position.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/template/positionInfo.html" afterPath="$PROJECT_DIR$/src/view/template/positionInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/template/positionList.html" afterPath="$PROJECT_DIR$/src/view/template/positionList.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/script/directive/login.js" afterPath="$PROJECT_DIR$/src/script/directive/goLogin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/style/template/login.less" afterPath="$PROJECT_DIR$/src/style/template/goLogin.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/view/template/login.html" afterPath="$PROJECT_DIR$/src/view/template/goLogin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/property.less" afterPath="$PROJECT_DIR$/src/style/property.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,11 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="myFavorite.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myFavorite.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/myFavorite.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
               <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-950">
+              <caret line="48" column="1" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="property.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/property.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -130,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="positionInfo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="positionInfo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/template/positionInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
+            <state relative-caret-position="87">
               <caret line="3" column="142" lean-forward="false" selection-start-line="3" selection-start-column="142" selection-end-line="3" selection-end-column="142" />
               <folding />
             </state>
@@ -177,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/script/config/dict.js" />
         <option value="$PROJECT_DIR$/src/view/template/appSheet.html" />
         <option value="$PROJECT_DIR$/src/script/directive/appSheet.js" />
         <option value="$PROJECT_DIR$/src/script/filter.js" />
@@ -228,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/data/search.json" />
         <option value="$PROJECT_DIR$/src/script/app.js" />
         <option value="$PROJECT_DIR$/src/data/myFavorite.json" />
+        <option value="$PROJECT_DIR$/src/style/property.less" />
       </list>
     </option>
   </component>
@@ -300,6 +271,30 @@
               <item name="angular-lgw" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-lgw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-lgw" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-lgw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-lgw" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-lgw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-lgw" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-lgw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-lgw" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="angular-lgw" type="b2602c69:ProjectViewProjectNode" />
@@ -467,18 +462,17 @@
       <workItem from="1521507564783" duration="9603000" />
       <workItem from="1521620305325" duration="4725000" />
       <workItem from="1521724401014" duration="12969000" />
-      <workItem from="1521979952352" duration="34626000" />
+      <workItem from="1521979952352" duration="35990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202894000" />
+    <option name="totallyTimeSpent" value="204258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36607143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36607143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -512,14 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/script/config/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/register.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -541,11 +527,11 @@
         <state relative-caret-position="9193">
           <caret line="429" column="25" lean-forward="false" selection-start-line="429" selection-start-column="25" selection-end-line="429" selection-end-column="25" />
           <folding>
-            <marker date="1522071346492" expanded="true" signature="13835:13841" ph="{...}" />
-            <marker date="1522071346492" expanded="true" signature="13835:13843" ph="{...}" />
-            <marker date="1522071346492" expanded="true" signature="13835:13844" ph="[...]" />
-            <marker date="1522071346492" expanded="true" signature="13861:14152" ph="/*...*/" />
-            <marker date="1522071346492" expanded="true" signature="14153:14518" ph="/*...*/" />
+            <marker date="1522072919369" expanded="true" signature="13835:13841" ph="{...}" />
+            <marker date="1522072919369" expanded="true" signature="13835:13843" ph="{...}" />
+            <marker date="1522072919369" expanded="true" signature="13835:13844" ph="[...]" />
+            <marker date="1522072919369" expanded="true" signature="13861:14152" ph="/*...*/" />
+            <marker date="1522072919369" expanded="true" signature="14153:14518" ph="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -742,14 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="48" column="1" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -886,14 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/template/positionInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="3" column="142" lean-forward="false" selection-start-line="3" selection-start-column="142" selection-end-line="3" selection-end-column="142" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/script/directive/positionInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -922,6 +892,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-950">
+          <caret line="48" column="1" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/property.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/template/positionInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="142" lean-forward="false" selection-start-line="3" selection-start-column="142" selection-end-line="3" selection-end-column="142" />
           <folding />
         </state>
       </provider>
