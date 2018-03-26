@@ -1,7 +1,7 @@
 <div class="position-info">
     <div class="pos-title b-b">
         <h2 class="title f-l ell ta-l" ng-bind="pos.name"></h2>
-        <div ng-show="isLogin" class="coll-icon f-r ta-c" ng-init="flag=false;collect='未'" ng-click="flag=!flag;collect=flag?'已':'未'">
+        <div ng-show="isLogin" class="coll-icon f-r ta-c" ng-init="flag=false;collect='未'" ng-click="flag=!flag;collect=flag?'已':'未';favorite()">
             <span class="d-b" ng-class="{true:'coll',false:'notcoll'}[flag]"></span>
             <span class=" d-b text" ng-bind="collect+'收藏'"></span>
         </div>

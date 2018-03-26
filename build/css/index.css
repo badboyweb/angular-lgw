@@ -62,6 +62,7 @@
 }
 .position-list .list-item {
   padding: 14px;
+  position: relative;
   /*border-bottom:  1px solid @loginLineColor;*/
 }
 .position-list .list-item .item-logo {
@@ -90,12 +91,28 @@
   font-size: 0.45333333rem;
   color: #00b38a;
 }
+.position-list .list-item .icon {
+  width: 0.8rem;
+  height: 0.74666667rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.position-list .list-item .icon.star {
+  background-image: url("../image/star.png");
+}
+.position-list .list-item .icon.active-star {
+  background-image: url("../image/star-active.png");
+}
 .position-list .list-item .item-time {
   color: #888;
   font-size: 0.32rem;
   margin: 0;
 }
-.login {
+.go-login {
   height: 1.14666667rem;
   line-height: 1.14666667rem;
   /*border-bottom: 1px solid @loginLineColor;*/
@@ -103,7 +120,7 @@
   color: #555;
   font-size: 0.4rem;
 }
-.login button {
+.go-login button {
   color: #00b38a;
   height: 0.8rem;
   line-height: 0.8rem;
@@ -522,6 +539,232 @@ ul {
 .poslist {
   padding-top: 80px;
 }
+.login {
+  background: url("../image/background.png") no-repeat 100% 100%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.login form {
+  margin-top: 6.93333333rem;
+  text-align: center;
+}
+.login form i {
+  vertical-align: top;
+  height: 1.06666667rem;
+  width: 1.46666667rem;
+}
+.login form i:first-of-type {
+  background: rgba(0, 0, 0, 0.4) url("../image/account.png") no-repeat 50% 50%;
+}
+.login form i:last-of-type {
+  background: rgba(0, 0, 0, 0.4) url("../image/lock.png") no-repeat 50% 50%;
+}
+.login form input {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 0 0 30px;
+  font-size: 0.37333333rem;
+  width: 6.53333333rem;
+  height: 1.09333333rem;
+  line-height: 1.09333333rem;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.login form input.ng-invalid + span {
+  position: fixed;
+  right: 40px;
+  font-size: 12px;
+  color: red;
+  height: 40px;
+  line-height: 40px;
+}
+.login form input::-webkit-input-placeholder {
+  color: #fff;
+}
+.login form input:first-of-type {
+  border-bottom: 1px solid #fff;
+}
+.login form button {
+  width: 8rem;
+  height: 0.93333333rem;
+  border: 1px solid #00b38a;
+  outline: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+.login form button:focus {
+  outline: 0;
+}
+.login form button:first-of-type {
+  margin-top: 75px;
+  background-color: #00b38a;
+  color: #fff;
+}
+.login form button:last-of-type {
+  margin-top: 20px;
+  background-color: rgba(18, 23, 181, 0.2);
+  color: #00b38a;
+}
+.my-post {
+  margin-top: 40px;
+}
+.post-tab {
+  top: 45px;
+}
+.me {
+  text-align: center;
+}
+.me .me-info {
+  padding-top: 60px;
+}
+.me .me-info img {
+  margin: 0 auto;
+}
+.me .me-info .name {
+  font-size: 0.48rem;
+  margin-top: 0.66666667rem;
+}
+.me .me-info .btns {
+  margin-top: 1.06666667rem;
+}
+.me .me-info .btns button {
+  border: none;
+  outline: 0;
+  width: 4rem;
+  height: 2.53333333rem;
+  line-height: 2.53333333rem;
+  background-color: #00b38a;
+  color: #fff;
+  font-size: 0.42666667rem;
+  margin-left: 0.32rem;
+  margin-right: 0.32rem;
+}
+.me .me-info .btns button:focus {
+  outline: 0;
+}
+.me .me-info .btns button:last-of-type {
+  width: 9.06666667rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  margin-top: 0.53333333rem;
+  background-color: red;
+}
+.me .login-btn {
+  font-size: 0.42666667rem;
+  width: 9.06666667rem;
+  height: 1.06666667rem;
+  margin-top: 8rem;
+  background-color: #00b38a;
+  color: #fff;
+  border: none;
+  outline: 0;
+}
+.me .login-btn:focus {
+  outline: 0;
+}
+.register {
+  background: url("../image/background.png") no-repeat 100% 100%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.register form {
+  margin-top: 1.46666667rem;
+  text-align: center;
+}
+.register form i {
+  vertical-align: top;
+  height: 1.06666667rem;
+  width: 1.46666667rem;
+}
+.register form i:first-of-type {
+  background: rgba(0, 0, 0, 0.4) url("../image/account.png") no-repeat 50% 50%;
+}
+.register form i:last-of-type {
+  background: rgba(0, 0, 0, 0.4) url("../image/lock.png") no-repeat 50% 50%;
+}
+.register form .message-box.ng-invalid + span {
+  right: 150px;
+}
+.register form input {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 0 0 30px;
+  font-size: 0.37333333rem;
+  width: 6.53333333rem;
+  height: 1.09333333rem;
+  line-height: 1.09333333rem;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.register form input::-webkit-input-placeholder {
+  color: #fff;
+}
+.register form input:nth-of-type(1) {
+  border-bottom: 1px solid #fff;
+}
+.register form input:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+.register form input:nth-of-type(3) {
+  text-align: left;
+  width: 5.06666667rem;
+}
+.register form input.ng-invalid + span {
+  position: fixed;
+  right: 40px;
+  font-size: 12px;
+  color: red;
+  height: 40px;
+  line-height: 40px;
+}
+.register form .send-message {
+  margin-left: 0.8rem;
+  width: 1.86666667rem;
+  height: 0.53333333rem;
+  line-height: 0.53333333rem;
+  vertical-align: bottom;
+  color: #00b38a;
+  border: 1px solid #00b38a;
+}
+.register form .send-message.disabled {
+  color: #e8e8e8;
+  border-color: #e8e8e8;
+}
+.register form button {
+  width: 8rem;
+  height: 0.93333333rem;
+  border: 1px solid #00b38a;
+  outline: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+.register form button:focus {
+  outline: 0;
+}
+.register form button:first-of-type {
+  margin-top: 75px;
+  background-color: rgba(18, 23, 181, 0.2);
+  color: #00b38a;
+}
+.register form button:last-of-type {
+  margin-top: 20px;
+  background-color: #00b38a;
+  color: #fff;
+}
 .sheet {
   position: fixed;
   width: 100%;
@@ -563,6 +806,33 @@ ul {
   outline: 0;
   margin-top: 8px;
   border-radius: 6px;
+}
+/*引入animate.css*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 html,
 body {

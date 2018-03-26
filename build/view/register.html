@@ -1,0 +1,9 @@
+<div class="register">
+    <form action="" name="form">
+        <i class="d-ib"></i><input name="phone" ng-model="user.phone" validator="required,phone" type="text" placeholder="输入手机号"><br>
+        <i class="d-ib"></i><input name="password" ng-model="user.password" validator="required,password" type="password" placeholder="设置6位及以上密码"><br>
+        <input name="code" ng-model="user.code" validator="required" class="message-box" type="text" placeholder="短信验证码"><span class="send-message d-ib {{time?'disabled':''}}" ng-click="time?1===1:send()" ng-bind="time?time:'发送短信'"></span>
+        <button ui-sref="login">登录</button>
+        <button validation-submit="form" ng-click="submit()">注册</button>
+    </form>
+</div>
