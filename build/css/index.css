@@ -432,6 +432,7 @@ ul {
   margin: 0;
   top: 40px;
   font-size: 0;
+  background-color: #fff;
 }
 .tab li {
   display: inline-block;
