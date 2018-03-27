@@ -109,6 +109,180 @@ angular.module('app').config(['$validationProvider',function ($validationProvide
 }]);
 'use strict';
 
+angular.module('app').directive('appSheet',[function () {
+    return{
+        restrict:'A',
+        replace:true,
+        scope:{
+          list:'=',
+          visible:'=',
+          select:'&'
+        },
+        templateUrl:'view/template/appSheet.html'
+    }
+}]);
+'use strict';
+
+angular.module('app').directive('appTab',[function () {
+    return{
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/appTab.html',
+        scope:{
+            list:'=',
+            tabClick:'&'
+        },
+        link:function ($scope) {
+            $scope.click= function (tab) {
+                $scope.selectedId = tab.id;
+                $scope.tabClick(tab);
+            }
+            
+        }
+    }
+}]);
+'use strict';
+
+angular.module('app').directive('appCompany',[function () {
+  return{
+      restrict:'A',
+      replace:true,
+      templateUrl:'view/template/company.html',
+      scope:{
+          com:'='
+      }
+  }
+}]);
+'use strict';
+angular.module('app').directive('appCompanyDesc',[function () {
+    return{
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/companyDesc.html',
+        scope:{
+            com:"="
+        }
+    }
+}]);
+'use strict';
+angular.module('app').directive('appFoot',[function () {
+    return {
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/foot.html'
+    }
+}]);
+'use strict';
+angular.module('app').directive('appGoLogin',['cache',function (cache) {
+    return{
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/goLogin.html',
+        link:function ($scope) {
+            $scope.name= cache.get('name') || '';
+
+        }
+    }
+}]);
+'use strict';
+angular.module('app').directive('appHead',[function () {
+    return{
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/head.html'
+    }
+}]);
+'use strict';
+angular.module('app').directive('appHeadBar',[function () {
+    return{
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/headBar.html',
+        scope:{
+            text:'='
+        },
+        link:function (scope) {
+            scope.back=function () {
+                window.history.back();
+            }
+        }
+    }
+}]);
+'use strict';
+
+angular.module('app').directive('appPositionClass',[function () {
+  return{
+      restrict:'A',
+      replace:true,
+      templateUrl:'view/template/positionClass.html',
+      scope:{
+          com:'='
+      },
+      link:function ($scope) {
+          $scope.showPositionList = function (idx) {
+              $scope.positionList = $scope.com.positionClass[idx].positionList;
+              $scope.isActive = idx;
+              //Cannot read property 'positionClass' of undefined 由于先加载了指令，而com还没有传过来，改进如下：
+          };
+          $scope.$watch('com',function (newVal) {
+              //给com属性添加监听事件 会影响性能
+              if(newVal) $scope.showPositionList(0);
+          });
+          $scope.$on('abc',function (event,data) {
+              console.log(event,data);
+          });
+          $scope.$emit('cba',{name:2});
+          //$scope.$digest() 用于在指令中用原生JS操作DOm对象时，数据绑定失效，进行重新数据绑定
+      }
+  }
+}]);
+'use strict';
+angular.module('app').directive('appPositionInfo',['$http',function ($http) {
+    return{
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/positionInfo.html',
+        scope:{
+            isLogin:'=',
+            pos:'='
+        },
+        link:function ($scope) {
+            $scope.favorite =function () {
+                $http.post('data/favorite.json',{
+                    id:$scope.pos.id,
+                    select:$scope.pos.select
+                }).success(function (resp) {
+                    console.log(resp);
+                })
+            }
+        }
+    }
+}]);
+'use strict';
+angular.module('app').directive('appPositionList',['$http',function ($http) {
+    return{
+        restrict:"A",
+        replace:true,
+        templateUrl:'view/template/positionList.html',
+        scope:{
+            data:'=',//暴露一个接口 与控制器的控制域共享
+            filterObj:'=',
+            isFavorite:'='
+        },
+        link:function ($scope) {
+            $scope.select = function (item) {
+                $http.post('data/favorite.json',{
+                    id:item.id,
+                    select:!item.select
+                }).success(function (resp) {
+                    item.select = !item.select;
+                })
+            }
+        }
+    }
+}]);
+'use strict';
+
 angular.module('app').controller('companyCtrl',['$scope','$state','$http',function ($scope,$state,$http) {
 $http.get('data/company.json?id='+$state.params.id).success(function (resp) {
     $scope.comDesc=resp;
@@ -318,180 +492,6 @@ angular.module('app').controller('searchCtrl',['$scope','$http','dict',function 
                 }
             })
 
-        }
-    }
-}]);
-'use strict';
-
-angular.module('app').directive('appSheet',[function () {
-    return{
-        restrict:'A',
-        replace:true,
-        scope:{
-          list:'=',
-          visible:'=',
-          select:'&'
-        },
-        templateUrl:'view/template/appSheet.html'
-    }
-}]);
-'use strict';
-
-angular.module('app').directive('appTab',[function () {
-    return{
-        restrict:'A',
-        replace:true,
-        templateUrl:'view/template/appTab.html',
-        scope:{
-            list:'=',
-            tabClick:'&'
-        },
-        link:function ($scope) {
-            $scope.click= function (tab) {
-                $scope.selectedId = tab.id;
-                $scope.tabClick(tab);
-            }
-            
-        }
-    }
-}]);
-'use strict';
-
-angular.module('app').directive('appCompany',[function () {
-  return{
-      restrict:'A',
-      replace:true,
-      templateUrl:'view/template/company.html',
-      scope:{
-          com:'='
-      }
-  }
-}]);
-'use strict';
-angular.module('app').directive('appCompanyDesc',[function () {
-    return{
-        restrict:'A',
-        replace:true,
-        templateUrl:'view/template/companyDesc.html',
-        scope:{
-            com:"="
-        }
-    }
-}]);
-'use strict';
-angular.module('app').directive('appFoot',[function () {
-    return {
-        restrict:'A',
-        replace:true,
-        templateUrl:'view/template/foot.html'
-    }
-}]);
-'use strict';
-angular.module('app').directive('appGoLogin',['cache',function (cache) {
-    return{
-        restrict:'A',
-        replace:true,
-        templateUrl:'view/template/goLogin.html',
-        link:function ($scope) {
-            $scope.name= cache.get('name') || '';
-
-        }
-    }
-}]);
-'use strict';
-angular.module('app').directive('appHead',[function () {
-    return{
-        restrict:'A',
-        replace:true,
-        templateUrl:'view/template/head.html'
-    }
-}]);
-'use strict';
-angular.module('app').directive('appHeadBar',[function () {
-    return{
-        restrict:'A',
-        replace:true,
-        templateUrl:'view/template/headBar.html',
-        scope:{
-            text:'='
-        },
-        link:function (scope) {
-            scope.back=function () {
-                window.history.back();
-            }
-        }
-    }
-}]);
-'use strict';
-
-angular.module('app').directive('appPositionClass',[function () {
-  return{
-      restrict:'A',
-      replace:true,
-      templateUrl:'view/template/positionClass.html',
-      scope:{
-          com:'='
-      },
-      link:function ($scope) {
-          $scope.showPositionList = function (idx) {
-              $scope.positionList = $scope.com.positionClass[idx].positionList;
-              $scope.isActive = idx;
-              //Cannot read property 'positionClass' of undefined 由于先加载了指令，而com还没有传过来，改进如下：
-          };
-          $scope.$watch('com',function (newVal) {
-              //给com属性添加监听事件 会影响性能
-              if(newVal) $scope.showPositionList(0);
-          });
-          $scope.$on('abc',function (event,data) {
-              console.log(event,data);
-          });
-          $scope.$emit('cba',{name:2});
-          //$scope.$digest() 用于在指令中用原生JS操作DOm对象时，数据绑定失效，进行重新数据绑定
-      }
-  }
-}]);
-'use strict';
-angular.module('app').directive('appPositionInfo',['$http',function ($http) {
-    return{
-        restrict:'A',
-        replace:true,
-        templateUrl:'view/template/positionInfo.html',
-        scope:{
-            isLogin:'=',
-            pos:'='
-        },
-        link:function ($scope) {
-            $scope.favorite =function () {
-                $http.post('data/favorite.json',{
-                    id:$scope.pos.id,
-                    select:$scope.pos.select
-                }).success(function (resp) {
-                    console.log(resp);
-                })
-            }
-        }
-    }
-}]);
-'use strict';
-angular.module('app').directive('appPositionList',['$http',function ($http) {
-    return{
-        restrict:"A",
-        replace:true,
-        templateUrl:'view/template/positionList.html',
-        scope:{
-            data:'=',//暴露一个接口 与控制器的控制域共享
-            filterObj:'=',
-            isFavorite:'='
-        },
-        link:function ($scope) {
-            $scope.select = function (item) {
-                $http.post('data/favorite.json',{
-                    id:item.id,
-                    select:!item.select
-                }).success(function (resp) {
-                    item.select = !item.select;
-                })
-            }
         }
     }
 }]);
