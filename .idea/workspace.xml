@@ -87,7 +87,7 @@
       <file leaf-file-name="positionInfo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/template/positionInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="29">
               <caret line="3" column="142" lean-forward="false" selection-start-line="3" selection-start-column="142" selection-end-line="3" selection-end-column="142" />
               <folding />
             </state>
@@ -154,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/style/template/goLogin.less" />
         <option value="$PROJECT_DIR$/src/view/main.html" />
         <option value="$PROJECT_DIR$/src/script/config/router.js" />
-        <option value="$PROJECT_DIR$/build/css/index.css" />
         <option value="$PROJECT_DIR$/src/script/config/http.js" />
         <option value="$PROJECT_DIR$/src/style/register.less" />
         <option value="$PROJECT_DIR$/src/script/controller/registerCtrl.js" />
@@ -192,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/script/app.js" />
         <option value="$PROJECT_DIR$/src/data/myFavorite.json" />
         <option value="$PROJECT_DIR$/src/style/property.less" />
+        <option value="$PROJECT_DIR$/build/css/index.css" />
       </list>
     </option>
   </component>
@@ -455,12 +455,12 @@
       <workItem from="1521507564783" duration="9603000" />
       <workItem from="1521620305325" duration="4725000" />
       <workItem from="1521724401014" duration="12969000" />
-      <workItem from="1521979952352" duration="36678000" />
+      <workItem from="1521979952352" duration="37260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204946000" />
+    <option name="totallyTimeSpent" value="205528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -513,11 +513,11 @@
         <state relative-caret-position="9193">
           <caret line="429" column="25" lean-forward="false" selection-start-line="429" selection-start-column="25" selection-end-line="429" selection-end-column="25" />
           <folding>
-            <marker date="1522072919369" expanded="true" signature="13835:13841" ph="{...}" />
-            <marker date="1522072919369" expanded="true" signature="13835:13843" ph="{...}" />
-            <marker date="1522072919369" expanded="true" signature="13835:13844" ph="[...]" />
-            <marker date="1522072919369" expanded="true" signature="13861:14152" ph="/*...*/" />
-            <marker date="1522072919369" expanded="true" signature="14153:14518" ph="/*...*/" />
+            <marker date="1522074199385" expanded="true" signature="13835:13841" ph="{...}" />
+            <marker date="1522074199385" expanded="true" signature="13835:13843" ph="{...}" />
+            <marker date="1522074199385" expanded="true" signature="13835:13844" ph="[...]" />
+            <marker date="1522074199385" expanded="true" signature="13861:14152" ph="/*...*/" />
+            <marker date="1522074199385" expanded="true" signature="14153:14518" ph="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -900,7 +900,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/template/positionInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="29">
           <caret line="3" column="142" lean-forward="false" selection-start-line="3" selection-start-column="142" selection-end-line="3" selection-end-column="142" />
           <folding />
         </state>
