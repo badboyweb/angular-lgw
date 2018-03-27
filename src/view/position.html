@@ -1,0 +1,11 @@
+<div app-head-bar text="'职位详情'"></div>
+<div app-position-info pos="position" is-login="isLogin"></div>
+<div app-company com="company"></div>
+<h5 class="positiondes">职位描述</h5>
+<div class="des-content" ng-bind="position.description">
+</div>
+<h5 class="positiondes">面试评价 (0)</h5>
+<ul class="interview-eval ">
+    <li class="list-item empty">暂无面试评价</li>
+</ul>
+<div class="fix-btn pf" ><div ng-click="go();" class="delivery-resume ta-c" ng-bind="message"></div></div>

@@ -1,0 +1,28 @@
+@import "../variable.less";
+.foot{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+ /* border-top: 1px solid @lineColor;*/
+  height: 45px;
+  line-height: 45px;
+  background-color: @footBgColor;
+  left: 0;
+  right: 0;
+  font-size: 0;/*处理inline-black之间的间距*/
+  li{
+    .fs(17);
+    width: 33.33%;
+    color: @muteColor;
+    &.select{
+      color: @highlightColor;
+      background-color: @highlightBgColor;
+    }
+    i{
+      .fs(20);
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

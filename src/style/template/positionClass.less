@@ -1,0 +1,68 @@
+@import "../variable.less";
+.position-class{
+  padding: 15px;
+  p{
+    color: @loginColor;
+    .fs(15);
+    margin-bottom: 15px;
+  }
+  li{
+    display: inline-block;
+    width: 32%;
+    margin: 0 5px 5px 0;
+    button{
+      width: 100%;
+      height: 41px;
+      line-height: 41px;
+      border-radius: 20.5px;
+      background-color: @btnBgColor;
+      color: @highlightColor;
+      border: none;
+      outline: none;
+      &:focus{
+        outline: 0;
+      }
+      .fs(17);
+      &.active{
+        background-color:@highlightColor;
+        color: @defaultColor;
+      }
+    }
+  }
+  li:nth-of-type(3n){
+    margin-right: 0;
+  }
+}
+.job-item{
+  li{
+    padding: 15px;
+    height: 47px;
+    .item-desc{
+      width: 65%;
+      .job-name{
+        font-weight: 400;
+        .fs(17);
+        color: #333;
+        padding-top: 4px;
+      }
+      .pub-time{
+        font-size: 12px;
+        color: @positionTimeColor;
+        margin-top: 5px;
+      }
+    }
+    .salary{
+      width: 30%;
+      color: @highlightColor;
+      .fs(18);
+      line-height: 40px;
+    }
+  }
+  .item-more{
+    text-align: center;
+    .fs(16);
+    height: 50px;
+    line-height: 50px;
+    color: #333333;
+  }
+}

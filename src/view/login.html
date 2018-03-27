@@ -1,0 +1,8 @@
+<div class="login">
+    <form action="" name="form">
+        <i class="d-ib"></i><input name="phone" validator="required,phone" ng-model="user.phone" type="text" placeholder="输入手机号"><br>
+        <i class="d-ib"></i><input name="password" validator="required,password" ng-model="user.password" type="password" placeholder="输入密码">
+        <button validation-submit="form" ng-click="submit()">登录</button>
+        <button ui-sref="register">注册</button>
+    </form>
+</div>

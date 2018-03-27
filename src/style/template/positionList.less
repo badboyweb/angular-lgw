@@ -1,0 +1,59 @@
+@import "../variable.less";
+.position-list{
+  margin: 0 0 46px;
+  padding: 0;
+  color: @positionListColor;
+  list-style: none;
+  .list-item{
+    padding: 14px;
+    position: relative;
+    /*border-bottom:  1px solid @loginLineColor;*/
+    .item-logo{
+      .w(60);
+      .h(60);
+      .mr(10);
+    }
+    .item-title{
+      .fs(17);
+      font-weight: 700;
+      width: 60%;
+      margin: 0;
+      .mb(6);
+    }
+    .item-info{
+      .h(15);
+      .lh(15);
+      margin: 0;
+      .mb(6);
+      .item-pos{
+        width: 46%;
+        .fs(13);
+      }
+      .item-salary{
+        .fs(17);
+        color:@highlightColor ;
+      }
+    }
+    .icon{
+      .w(30);
+      .h(28);
+      background-repeat: no-repeat;
+      background-size:100% 100%;
+      display: block;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      &.star{
+        background-image: url("../image/star.png");
+      }
+      &.active-star{
+        background-image: url("../image/star-active.png");
+      }
+    }
+    .item-time{
+      color: @positionTimeColor;
+      .fs(12);
+      margin: 0;
+    }
+  }
+}

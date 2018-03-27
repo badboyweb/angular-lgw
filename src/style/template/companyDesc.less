@@ -1,0 +1,45 @@
+@import "../variable.less";
+
+.companyDesc{
+  padding: 15px;
+  margin: 0;
+  position: relative;
+  img{
+    width: 60px;
+    height: 60px;
+  }
+  div{
+    margin-left: 75px;
+    margin-right: 50px;
+    color: #333;
+    h2{
+      .fs(19);
+      margin: 0 0 4px;
+    }
+    .address{
+      margin: 0;
+      .fs(13);
+      i{
+        width: 9px;
+        height: 12px;
+        margin-right: 5px;
+        background: url("../image/icon.png") no-repeat -93px -22.5px;
+        background-size: 250px 250px;
+      }
+    }
+    .desc{
+      color: @positionTimeColor;
+      margin: 7px 0 0;
+      .fs(13);
+    }
+    .vip{
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      width: 23px;
+      height: 29px;
+      background: url(../image/icon.png) no-repeat -222.5px -3.5px;
+      background-size: 250px 250px;
+    }
+  }
+}
