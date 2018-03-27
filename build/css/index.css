@@ -142,6 +142,7 @@ input {
   -webkit-appearance: none;
   /*清除ios默认圆角*/
   border-radius: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 button:active {
   border: none;
@@ -565,6 +566,7 @@ ul {
 }
 .login form i:first-of-type {
   background: rgba(0, 0, 0, 0.4) url("../image/account.png") no-repeat 50% 50%;
+  border-bottom: 1px solid #fff;
 }
 .login form i:last-of-type {
   background: rgba(0, 0, 0, 0.4) url("../image/lock.png") no-repeat 50% 50%;
@@ -599,10 +601,11 @@ ul {
 .login form button {
   width: 8rem;
   height: 0.93333333rem;
+  line-height: 0.88rem;
   border: 1px solid #00b38a;
   outline: none;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 400;
 }
 .login form button:focus {
   outline: 0;
@@ -695,6 +698,7 @@ ul {
 }
 .register form i:first-of-type {
   background: rgba(0, 0, 0, 0.4) url("../image/account.png") no-repeat 50% 50%;
+  border-bottom: 1px solid #fff;
 }
 .register form i:last-of-type {
   background: rgba(0, 0, 0, 0.4) url("../image/lock.png") no-repeat 50% 50%;
@@ -752,10 +756,11 @@ ul {
 .register form button {
   width: 8rem;
   height: 0.93333333rem;
+  line-height: 0.88rem;
   border: 1px solid #00b38a;
   outline: none;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 400;
 }
 .register form button:focus {
   outline: 0;

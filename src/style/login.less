@@ -15,6 +15,7 @@
       .w(55);
       &:first-of-type{
         background:rgba(0,0,0,0.4) url("../image/account.png") no-repeat 50%  50%;
+        border-bottom: 1px solid @defaultColor;
       }
       &:last-of-type{
         background: rgba(0,0,0,0.4) url("../image/lock.png") no-repeat 50%  50%;
@@ -54,10 +55,11 @@
      button{
        .w(300);
        .h(35);
+       .lh(33);
        border: 1px solid @highlightColor;
        outline: none;
-       font-size: 22px;
-       font-weight: bold;
+       font-size: 20px;
+       font-weight: 400;
        &:focus{
          outline: 0;
        }

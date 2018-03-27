@@ -20,7 +20,6 @@ angular.module('app').controller('registerCtrl',['$scope','$http','$interval','$
                         $scope.time=count+'s';
                     }
                 },1000)
-
             }
         })
     }
